@@ -1,0 +1,17 @@
+services:
+  api:
+    build: .
+    image: listing-guard:latest
+    ports:
+      - "8080:8080"
+    environment:
+      LLM_BASE_URL: ${LLM_BASE_URL:-http://host.docker.internal:8000/v1}
+      LLM_MODEL: ${LLM_MODEL:-qwen3-vl-8b}
+      HF_HOME: /hf
+    volumes:
+      - ./data:/app/data
+      - ./results:/app/results
+      - ${HF_CACHE:-${HOME}/.cache/huggingface}:/hf
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    restart: unless-stopped

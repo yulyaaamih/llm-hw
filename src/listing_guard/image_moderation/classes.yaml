@@ -1,0 +1,16 @@
+prompt_template: "a photo of {}"
+
+forbidden:
+  firearms: ["a handgun", "a rifle", "a shotgun", "a firearm"]
+  cold_weapons: ["a combat knife", "a dagger", "a sword", "brass knuckles"]
+  alcohol: ["a bottle of vodka", "a bottle of wine", "a bottle of beer"]
+  drugs: ["a syringe", "cannabis leaves", "white powder drugs"]
+  tobacco: ["cigarettes", "an electronic cigarette vape", "a hookah"]
+  documents_and_money: ["a passport", "banknotes", "a credit card"]
+
+allowed:
+  toys: ["a toy gun", "a water pistol", "a plastic toy"]
+  kitchen: ["a kitchen knife", "scissors", "kitchen utensils"]
+  drinks: ["a bottle of water", "a juice bottle", "a coffee mug"]
+  health: ["vitamins", "a houseplant", "a thermometer"]
+  goods: ["clothes", "shoes", "a smartphone", "furniture", "a book"]

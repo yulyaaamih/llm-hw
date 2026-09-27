@@ -1,2 +1,15 @@
 .venv
 .idea
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+data/*
+!data/README.md
+*.pt
+*.mlpackage/
+runs/
+results/
+
+data

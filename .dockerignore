@@ -1,0 +1,10 @@
+.venv
+.git
+.idea
+.ruff_cache
+**/__pycache__
+.ipynb_checkpoints
+data
+results
+*.ipynb
+*.pt

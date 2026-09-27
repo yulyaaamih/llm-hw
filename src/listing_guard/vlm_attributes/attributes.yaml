@@ -1,0 +1,10 @@
+articleType: [Backpacks, Belts, Bra, Briefs, Casual Shoes, Dresses, Flats, Flip Flops, Formal Shoes, Handbags,
+  Heels, Jeans, Kurtas, Perfume and Body Mist, Sandals, Shirts, Shorts, Socks, Sports Shoes, Sunglasses,
+  Tops, Trousers, Tshirts, Wallets, Watches]
+gender: [Boys, Girls, Men, Unisex, Women]
+baseColour: [Beige, Black, Blue, Bronze, Brown, Burgundy, Charcoal, Coffee Brown, Copper, Cream, Fluorescent
+    Green, Gold, Green, Grey, Grey Melange, Khaki, Lavender, Lime Green, Magenta, Maroon, Mauve, Metallic,
+  Multi, Mushroom Brown, Mustard, Navy Blue, Nude, Off White, Olive, Orange, Peach, Pink, Purple, Red,
+  Rose, Rust, Sea Green, Silver, Skin, Steel, Tan, Taupe, Teal, Turquoise Blue, White, Yellow]
+season: [Fall, Spring, Summer, Winter]
+usage: [Casual, Ethnic, Formal, Home, Party, Smart Casual, Sports, Travel]
